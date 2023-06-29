@@ -1,0 +1,62 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "post",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "postType",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createtime",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "rank",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "User",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "postType",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fish",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "length",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "fished",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userref",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "contestref",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fishround",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fishlenth",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}

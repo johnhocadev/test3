@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>368796450732-4mdbm6mmb1uvd7edsameme6bdabndc1v.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.368796450732-4mdbm6mmb1uvd7edsameme6bdabndc1v</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>368796450732-rq4f85rhevrje4u4audarnco0u4nuf5e.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC52c_uC4w6yWXs5rlRVCQMjvDMmnT2mA8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>368796450732</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mycompany.fishingapp</string>
+	<key>PROJECT_ID</key>
+	<string>fishingapp-ee490</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fishingapp-ee490.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:368796450732:ios:e288f57556bb1954fc4409</string>
+	<key>DATABASE_URL</key>
+	<string>https://fishingapp-ee490-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

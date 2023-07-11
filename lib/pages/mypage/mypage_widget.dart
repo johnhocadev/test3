@@ -1,3 +1,5 @@
+import 'package:fishingzone2/pages/camera/cameraPage.dart';
+
 import '/auth/firebase_auth/auth_util.dart';
 import '/components/alart/alart_widget.dart';
 import '/components/inquiry/inquiry_widget.dart';
@@ -1234,7 +1236,8 @@ class _MypageWidgetState extends State<MypageWidget> {
                                     hoverColor: Colors.transparent,
                                     highlightColor: Colors.transparent,
                                     onTap: () async {
-                                      context.pushNamed('length');
+                                      Navigator.push(context, MaterialPageRoute(builder: (context)=> CameraPage()));
+                                      // context.pushNamed('length');
                                     },
                                     child: Container(
                                       width: MediaQuery.of(context).size.width *

@@ -1,3 +1,5 @@
+import 'package:fishingzone2/pages/camera/cameraPage.dart';
+
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/custom_code/actions/index.dart' as actions;
@@ -215,9 +217,10 @@ class _MoreWidgetState extends State<MoreWidget> {
                           hoverColor: Colors.transparent,
                           highlightColor: Colors.transparent,
                           onTap: () async {
-                            await actions.cameraOveray(
-                              context,
-                            );
+                                 Navigator.push(context, MaterialPageRoute(builder: (context)=> CameraPage()));
+                            // await actions.cameraOveray(
+                            //   context,
+                            // );
                           },
                           child: Container(
                             width: 75.0,

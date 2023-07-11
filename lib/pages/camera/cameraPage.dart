@@ -111,6 +111,14 @@ print('camera page opened');
     return Scaffold(
       body: Stack(
         children: [
+          //pop
+          Align(
+            alignment: AlignmentDirectional.topStart,
+            child: IconButton(
+              onPressed: () => Navigator.pop(context),
+              icon: Icon(Icons.arrow_back),
+            ),
+          ),
 // camera 
 Positioned(
                 left: 25,

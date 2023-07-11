@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:camera/camera.dart';
+import 'package:fishingzone2/index.dart';
 import 'package:fishingzone2/pages/camera/cameraPage.dart';
 import 'package:fishingzone2/pages/camera/utils/manipulationBall.dart';
 import 'package:flutter/material.dart';
@@ -94,6 +95,7 @@ RulerPickerController? _rulerPickerController;
                 //TODO => main page once the picture is saved 
                 ScaffoldMessenger.of(context).showSnackBar(snackBarMessage);
                 GallerySaver.saveImage(widget.picture.path);
+                Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> MypageWidget()));
               }),
           
                 ],
